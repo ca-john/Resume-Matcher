@@ -55,16 +55,14 @@ On top of that, there are various data visualizations that I've added to help yo
 
 Follow these steps to set up the environment and run the application.
 
-1. Fork the repository [here](https://github.com/srbhr/Resume-Matcher/fork).
-
-2. Clone the forked repository.
+1. Clone the forked repository.
 
    ```bash
    git clone https://github.com/<YOUR-USERNAME>/Resume-Matcher.git
    cd Resume-Matcher
    ```
 
-3. Create a Python Virtual Environment:
+2. Create a Python Virtual Environment:
 
    - Using [virtualenv](https://learnpython.com/blog/how-to-use-virtualenv-python/):
 
@@ -82,7 +80,7 @@ Follow these steps to set up the environment and run the application.
      python -m venv env
      ```
 
-4. Activate the Virtual Environment.
+3. Activate the Virtual Environment.
 
    - On Windows.
 
@@ -132,24 +130,24 @@ Follow these steps to set up the environment and run the application.
         pyenv activate venv
      ```
 
-5. Install Dependencies:
+4. Install Dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-6. Prepare Data:
+5. Prepare Data:
 
    - Resumes: Place your resumes in PDF format in the `Data/Resumes` folder. Remove any existing contents in this folder.
    - Job Descriptions: Place your job descriptions in PDF format in the `Data/JobDescription` folder. Remove any existing contents in this folder.
 
-7. Parse Resumes to JSON:
+6. Parse Resumes to JSON:
 
    ```python
    python run_first.py
    ```
 
-8. Run the Application:
+7. Run the Application:
 
    ```python
    streamlit run streamlit_app.py
@@ -194,23 +192,6 @@ Follow these steps to set up the environment and run the application.
 
 <div align="center">
 
-## Join Us, Contribute!
-
-</div>
-
-Pull Requests & Issues are not just welcomed, they're celebrated! Let's create together.
-
-🎉 Join our lively [Discord](https://dsc.gg/resume-matcher) community and discuss away!
-
-💡 Spot a problem? Create an issue!
-
-👩‍💻 Dive in and help resolve existing [issues](https://github.com/srbhr/Resume-Matcher/issues).
-
-🔔 Share your thoughts in our [Discussions & Announcements](https://github.com/srbhr/Resume-Matcher/discussions).
-
-🚀 Explore and improve our [Landing Page](https://github.com/srbhr/website-for-resume-matcher). PRs always welcome!
-
-📚 Contribute to the [Resume Matcher Docs](https://github.com/srbhr/Resume-Matcher-Docs) and help people get started with using the software. 
 
 #### Tech Stack
 
@@ -225,38 +206,3 @@ Upcoming:
 <br/>
 
 <div align="center">
-
-## Enhance Open-Source Development: Donate and Be Part of Our Journey!
-
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/srbhr)
-[![Sponsor on GitHub](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/srbhr)
-
-</div>
-
----
-
-### Heads Up! 📝
-
-Your support means the world to us 💙. We're nurturing this project with an open-source community spirit, and we have an ambitious roadmap ahead! Here are some ways you could contribute and make a significant impact:
-
-✨ Transform our Streamlit dashboard into something more robust.
-
-📚 Enhance our functionality by enabling resume upload and parsing.
-
-🐳 Simplify usage by adding a Docker image.
-
-💡 Improve our parsing algorithm, making data more accessible.
-
-🖋 Share your insights and experiences in a blog post to help others.
-
-🎨 Give our [landing page](https://github.com/srbhr/website-for-resume-matcher) a fresh look using React, Vue, or your preferred framework.
-
-Take the leap, contribute, and let's grow together! 🚀
-
----
-
-### Our Contributors ✨
-
-<a href="https://github.com/srbhr/Resume-Matcher/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=srbhr/Resume-Matcher" />
-</a>
