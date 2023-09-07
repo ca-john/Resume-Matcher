@@ -58,7 +58,7 @@ Follow these steps to set up the environment and run the application.
 1. Clone the forked repository.
 
    ```bash
-   git clone https://github.com/<YOUR-USERNAME>/Resume-Matcher.git
+   git clone https://github.com/ca-john/Resume-Matcher.git
    cd Resume-Matcher
    ```
 
